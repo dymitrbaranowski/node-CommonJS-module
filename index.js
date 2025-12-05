@@ -6,3 +6,10 @@ const obj = require("./users");
 
 const { admins } = require("./users");
 console.log(admins);
+
+// const { getCurrentMonth } = require("./dateFunctions");
+// const currentMonth = getCurrentMonth();
+// console.log(currentMonth);
+
+const currentMonth = require("./dateFunctions").getCurrentMonth();
+console.log(currentMonth);
